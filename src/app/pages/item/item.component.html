@@ -1,3 +1,5 @@
+<section *ngIf="ejercio">
+
 <div class="ae-grid au-xs-ta-center au-mb-2" >
 
 
@@ -5,8 +7,8 @@
      <hr>
      <b>Objective</b>
      <p>
-        Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.
-      </p>
+        {{ ejercio.Descripcion }}
+      
  </div>
   <div class="ae-grid__item--alt item-lg-3">
   <textarea name="name" rows="8" cols="30">
@@ -56,3 +58,4 @@
   </textarea>
 
     </div>
+  </section>
